@@ -1,22 +1,12 @@
-import './App.css';
-import Class from './Class.js/Class';
-// import Countries from './components/Countries/Countries';
+import React from 'react';
+import Home from './pages/home/Home';
 
-
-function App() {
-
+const App = () => {
   return (
-    
-    <div className="App">
-      {/* <Countries></Countries> */}
-      <Class/>
+    <div>
+      <Home/>
     </div>
   );
-}
-
-
+};
 
 export default App;
-
-
-

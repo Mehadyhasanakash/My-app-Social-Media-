@@ -10,20 +10,88 @@
 
 .topvar-left{
     flex: 3;
-    background-color: aqua;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }
 
 .topvar-center{
     flex: 5;
-    background-color: antiquewhite;
+}
+
+.searchbar{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchIcone{
+    font-size: 25px !important; 
+    margin-left: 10px;
+}
+
+.searchInput{
+    width: 70%;
+    border: none;
+
+}
+.searchInput:focus{
+    outline: none;
+
 }
 
 .topvar-right{
     flex: 4;
-    background-color: rgb(179, 179, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topbarLink{
+    font-size: 18px;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarIcon{
+    display: flex;
+    color: white;
+}
+
+
+
+.topbarIconItem{
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.topIConBage{
+    color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20xp;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
 
 .topbarImage{
     height: 32px;
     width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 }

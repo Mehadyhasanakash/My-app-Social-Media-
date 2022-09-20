@@ -15,7 +15,7 @@ const Topvar = () => {
             {/* center */}
             <div className="topvar-center">
                 <div className="searchbar">
-                    <SearchIcon/>
+                    <SearchIcon className='searchIcone'/>
                     <input placeholder='Search for friend, post or video' className="searchInput" />
 
                 </div>

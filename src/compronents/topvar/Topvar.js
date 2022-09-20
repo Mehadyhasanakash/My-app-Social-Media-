@@ -44,6 +44,7 @@ const Topvar = () => {
 
                     </div>
                 </div>
+                <img src="/assetes/person/1.jpeg" alt="" className="topbarImage" />
             </div>
             
         </div>

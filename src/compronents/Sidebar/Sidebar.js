@@ -78,6 +78,55 @@ const Sidebar = () => {
 
                     </li>
                 </ul>
+                <button className="serbirButton">Show more</button>
+                <hr className='sidebarHr' />
+
+                <ul className="sidebarFrientList">
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                    <li className="sidebarfrient">
+                        <img src="assetes/person/2.jpeg" alt="" className="siderFrientImg" />
+                        <span className="siderFriendNamr">Jon</span>
+                    </li>
+                </ul>
             </div>
         </div>
     );
